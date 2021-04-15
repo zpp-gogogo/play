@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void)
+{
+	//定义ASCII为有符号的整型
+	int ASCII;
+	//确定输入的一个ASCII值
+	printf("Please enter an ASCII value:");
+	//输入的ASCII值为一个整型输出
+	scanf_s ("%d", &ASCII);
+	//printf 函数会自行对格式进行转换并输出相对应的字符型
+	printf("ASCII=%c",ASCII);
+
+	return 0;
+}
